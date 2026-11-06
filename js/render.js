@@ -120,6 +120,8 @@ function renderStats() {
   }
   const s = B.salesStats();
   set("statItems", s.sold); set("statCust", s.customers); set("statRev", fmt(s.revenue));
+  /* ยังไม่มียอดขาย: ซ่อนแถบสถิติ (กันลูกค้าเห็นเลข 0) */
+  const bar = document.querySelector(".bn-stats"); if (bar) bar.hidden = !(s.sold > 0);
 }
 
 function renderAll(animate = false) {
