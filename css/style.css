@@ -1169,3 +1169,4 @@ body.view-consign footer { display: none; }
 #adminBody .tabs { overflow-x: auto; scrollbar-width: none; border-radius: 18px; }
 #adminBody .tabs::-webkit-scrollbar { display: none; }
 #adminBody .tabs .tab { flex: 0 0 auto; white-space: nowrap; }
+.bn-stats[hidden] { display: none !important; }
