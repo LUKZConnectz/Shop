@@ -10,11 +10,11 @@ const SUPABASE_CONFIG = {
 const SHOP = {
   bank: "ธนาคารกสิกรไทย",
   accName: "ร้าน Phumin",
-  accNo: "000-0-00000-0",
-  phone: "08X-XXX-XXXX",
+  accNo: "083-3-30309-0",
+  phone: "099-010-9787",
   ppId: "0944191917",            /* เบอร์พร้อมเพย์ของร้าน (QR ชำระเงิน) */
   ppName: "ธัญพิสิษฐ์ นิลวงษ์",
-  line: "@phumin",
+  line: "@Connectzz",
   hours: "จันทร์–เสาร์ 10:00–19:00",
   fb: "https://www.facebook.com/profile.php?id=100088911469467"   /* ลิงก์เพจ Facebook เช่น https://www.facebook.com/xxxx (ว่างไว้ = ไม่แสดง) */
 };
